@@ -36,10 +36,10 @@ yarn install
 Configure your database connection in the `.env` file:
 
 ```env
-AUTH_SECRET=""
+AUTH_SECRET="nextjs-boilerplate"
 AUTH_GOOGLE_ID=""
 AUTH_GOOGLE_SECRET=""
-DATABASE_URL="mysql://user:password@localhost:3306/nextjs_boilerplate"
+DATABASE_URL="mysql://user:password@localhost:3306/nextjs-boilerplate"
 NEXTAUTH_URL="http://localhost:3000"
 AUTH_TRUST_HOST="http://localhost:3000"
 ```
@@ -71,5 +71,3 @@ Modify the `auth` configuration in `/src/auth.config.ts` to add OAuth providers 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-This boilerplate is intended to be a scalable starting point for your projects, saving you time and effort by providing common integrations out of the box.
